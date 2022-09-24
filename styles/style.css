@@ -8,6 +8,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     border-radius: 25px;
+    color: white;
 }
 img {
     width: 200px;
@@ -39,5 +40,5 @@ p{
     padding-top: 10px;
 }
 #portallastmodified{
-    color: silver;
+    color: white;
 }
