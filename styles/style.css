@@ -35,10 +35,11 @@ footer{
     text-align: center;
     margin-top: 15px;
     min-height: 75px;
+    color: white;
 }
 p{
     padding-top: 10px;
 }
 #portallastmodified{
-    color: white;
+    color: yellow;
 }
