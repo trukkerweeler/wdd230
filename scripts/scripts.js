@@ -11,4 +11,4 @@ catch (e) {
 
 //get the last modified date
 let datelastmodified = document.lastModified;
-document.getElementById("portallastmodified").innerHTML = datelastmodified;
+document.getElementById("portallastmodified").innerHTML = `Last modified: ${datelastmodified}`;
