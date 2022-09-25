@@ -1,6 +1,15 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Tapestry', cursive;*/
+
 header, nav, main, footer{
     max-width: 760px;
     margin: 1.25rem auto;
+}
+header, footer{
+    font-family: 'Tapestry', cursive;
+}
+nav, main{
+    font-family: 'Abel', sans-serif;
 }
 header {
     text-align: justify;
@@ -10,11 +19,10 @@ header {
     border-radius: 25px;
     color: white;
 }
-img {
+header img {
     width: 200px;
     grid-column: 1/2;
     margin: 15px;
-    border-radius: 15px;
 }
 h1 {
     grid-column: 2/4;
