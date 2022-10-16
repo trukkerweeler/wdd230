@@ -21,13 +21,15 @@ header {
 }
 header img {
     width: 200px;
-    grid-column: 1/2;
-    margin: 15px;
+    grid-column: 1/4;
+    margin: 50px auto 0 auto;
+    align-self: center;
 }
 h1 {
-    grid-column: 2/4;
-    margin-left: 50px;
+    grid-column: 1/4;
+    margin-left: 10px;
     margin-top: 75px;
+    text-align: center;
 }
 main{
     display: grid;

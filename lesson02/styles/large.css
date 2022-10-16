@@ -1,0 +1,17 @@
+@media only screen and (min-width: 50em){
+    h2{
+        font-size: 1.5rem;
+        color: white;
+    }
+    h3{
+        font-size: 1.5rem;
+        color: whitesmoke;
+    }
+
+    .container{
+        max-width: 1080px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
