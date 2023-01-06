@@ -38,10 +38,10 @@ nav img{
 main{
     max-width: 400px;
     margin: 0 auto;
+    margin-left: 0px;
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr;    
-    
+    grid-template-columns: 1fr;
 }
 main h2{
     grid-row: 1/2;
@@ -56,6 +56,7 @@ section{
     margin-left: 10px;
     margin-right: 10px;
     vertical-align: middle;
+    
     /* box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1) */
     box-shadow: 0 3px 6px rgba(0,0,0,0.3);
 }
@@ -70,6 +71,9 @@ section h3{
 section a{
     vertical-align: middle;
 }
+.card{
+    max-width: 250px;
+}
 .card ul{
     padding-left: 15px;
     font-size: 14px;
@@ -77,13 +81,11 @@ section a{
 .card p{
     padding-left: 15px;
     font-size: 14px;
-    /* color: red; */
 } 
 .card a{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
-    color: red;
 } 
 
 #learning{
@@ -92,6 +94,7 @@ section a{
 }
 #project{
     grid-column: 1/2;
+    text-align: center;
 
 }
 #info{
