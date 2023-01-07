@@ -1,3 +1,4 @@
+/*Course Portal*/
 nav{
     background-color: #333;
     display: flex;
@@ -110,7 +111,6 @@ header{
     display: grid;
     height: 80px;
     align-items: center;
-    /* position: relative; */
 }
 header h1{
     align-content: center;
