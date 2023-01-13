@@ -1,0 +1,26 @@
+main{
+    display: grid;
+}
+section{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 300px;
+}
+h1{
+    margin-bottom: 0rem !important;
+    padding-bottom: 0px !important;
+    padding-left: 10px !important;
+}
+h2{
+    font-size: smaller;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin-top: 2px;
+}
+li{
+    list-style: none;
+}

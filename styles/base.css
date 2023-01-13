@@ -1,24 +1,38 @@
 /*Course Portal*/
 nav{
     background-color: #333;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     overflow: hidden;
 }
-nav img{
-    max-height: 80px;
-    max-width: 80px;
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-
 /* Style the links inside the navigation bar */
+.topnav li:first-child{
+    display: block;
+    float: right;
+}
+.topnav li{
+    display: none;
+    min-height: 50px;
+}
 .topnav a {
-  float: left;
+  /* float: left; */
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  /* font-size: 17px; */
+}
+.topnav a {
+	/* display: block; */
+	padding: 0.75rem;
+	text-align: left;
+	font-weight: 700;
+	transition: 0.5s;
+	/* font-size: clamp(1rem, 2vmin, 1.5rem); */
 }
 
 /* Change the color of links on hover */
@@ -36,13 +50,43 @@ nav img{
     /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
     filter: brightness(0) invert(1)
 }
+
+.topnav li:first-child {
+	display: block;
+}
+.topnav li {
+	display: none;
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+
+.topnav a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+nav.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+	content: "X";
+}
+
 main{
     max-width: 400px;
     margin: 0 auto;
-    margin-left: 0px;
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+}
+main.godark{
+    background-color: #333;
+}
+#card.godark{
+    background-color: black;
 }
 main h2{
     grid-row: 1/2;
@@ -56,7 +100,6 @@ section{
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    vertical-align: middle;
     
     /* box-shadow: 0 3px 6px rgba(0,0,0,0.3), inset 0 -3px 3px rgba(0,0,0,0.1) */
     box-shadow: 0 3px 6px rgba(0,0,0,0.3);
@@ -73,7 +116,8 @@ section a{
     vertical-align: middle;
 }
 .card{
-    max-width: 250px;
+    min-width: 300px;
+    background-color: white;
 }
 .card ul{
     padding-left: 15px;
@@ -87,6 +131,7 @@ section a{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 16px;
+    text-decoration: none;
 } 
 
 #learning{
@@ -96,7 +141,6 @@ section a{
 #project{
     grid-column: 1/2;
     text-align: center;
-
 }
 #info{
     margin-top: 10px;
@@ -107,15 +151,16 @@ header, footer{
     background-color: cornflowerblue;
     text-align: center;
 }
+
 header{
     display: grid;
     height: 80px;
     align-items: center;
 }
-header h1{
+main h1{
     align-content: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0 auto;
+    font-size: medium;
 }
 #bf{
     display: none;

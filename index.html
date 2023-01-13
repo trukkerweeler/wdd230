@@ -18,35 +18,40 @@
 </head>
 <body>
     <nav class="topnav">        
-        <img src="images/menu_FILL0_wght400_GRAD0_opsz48.svg" class="filter-white" alt="Menu">
-        <a href="http://www.byui.edu">BYU-Idaho</a>
-        <a href="http://www.linkedin.com">linkedIn</a>
+        <ul>
+            <li><a id = "menu" href="#"></a></li>
+            <li><a href="http://www.byui.edu">BYU-Idaho</a></li>
+            <li><a href="http://www.linkedin.com">linkedIn</a></li>
+            <li><a id = "mode" href="#">dark mode</a></li>            
+        </ul>
       </nav>
+      
     <header>
         <h1>Tim Kent</h1>
     </header>
     <img src="images/btface.jpg" id="bf" alt="Tim's face.">
+
     <main>
-        <h2>WDD230: Course Activity Portal</h2>
+        <h1>WDD230: Course Activity Portal</h1>
         <section class="card" id="learning">
             <h3>Learning Activities</h3>
             <ul>
-                <li>Week 1: <u><a href="https://trukkerweeler.github.io/wdd230/week01/holygrail.html">htmGrail</a></u> | <u><a href="https://trukkerweeler.github.io/wdd230/week01/media-query.html">media-query</a></u></li>
-                <li>Week 2: <u><a href="https://trukkerweeler.github.io/wdd230/week02/bom.html">bomfav</a></u> | <u><a href="https://trukkerweeler.github.io/wdd230/week02/design.html">design</a></u></li>
-                <li>Week 3: <u></u></li>
+                <li>Week 1: <u><a class="anchors" href="https://trukkerweeler.github.io/wdd230/week01/holygrail.html">htmGrail</a></u> | <u><a class="anchors" href="https://trukkerweeler.github.io/wdd230/week01/media-query.html">media-query</a></u></li>
+                <li>Week 2: <u><a class="anchors" href="https://trukkerweeler.github.io/wdd230/week02/bom.html">bomfav</a></u> | <u><a class="anchors" href="https://trukkerweeler.github.io/wdd230/week02/design.html">design</a></u></li>
+                <!-- <li>Week 3: <u></u></li>
                 <li>Week 4: <u></u></li>
                 <li>Week 5: <u></u></li>
-                <li>Week 6: <u></u></li>
+                <li>Week 6: <u></u></li> -->
             </ul>
         </section>
         <section class="card" id="project">
             <h3>Project</h3>
-            <a href="https://trukkerweeler.github.io/wdd230/week01/chamber-site-plan.html">Mona area chamber project</a>
+            <a class="anchors" href="https://trukkerweeler.github.io/wdd230/week01/chamber-site-plan.html">Mona area chamber project</a>
         </section>
         <section class="card" id="info">
             <h3>Information</h3>
-            <p>placeholder 1</p>
-            <p>placeholder 2</p>
+            <p class="anchors">placeholder 1</p>
+            <p class="anchors">placeholder 2</p>
         </section>
     </main>
     <footer>
@@ -60,6 +65,8 @@
         
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/dark.js"></script>
     
 </body>
 </html>
