@@ -1,16 +1,75 @@
 /* Media Query for wider than mobile viewports. Breakpoint should be based upon the design and content and use em units to be relative to the user's font size versus fixed with pixels.*/
 @media only screen and (min-width: 40em) {
-	.navigation {
+	header{
+		grid-template-columns: auto auto;
+	}
+	nav {
+		position: initial;
+		display: block;
+	}
+	nav ul{
 		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
 		flex: 1 1 auto;
+		justify-content: flex-end;
 	}
-	.navigation a {
+	nav li {
+		/* display: flex; change state in small view */
+		/* flex: 1 1 auto; */
+		border: none;
+		justify-content: flex-end;
+	}
+	nav a {
 		text-align: center;
+		color: black;
+		width: auto;
 	}
-	.navigation li:first-child {
+	button {
 		display: none;
+	}
+
+	/* MAIN */
+	main{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	#weather{
+		grid-column: span 2;
+	}
+	h3{
+		display: none;
+	}
+
+	.spotlight{
+		box-shadow: 0 0 30px #333
+	}
+	/* FOOTER */
+	footer{
+		grid-column: span 3;
+
+	}
+	footer section{
+		margin-top: 8px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	ul.footer-logo{
+		margin-left: 70px;
+	}
+	ul.footer-info{
+		color: white;
+		background-color: #151515;
+	}
+	ul.highlight{
+		grid-column: span 4;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		font-size: smaller;
+		margin-right: 60px;
+		margin-left: 60px;
+		background-color: #151515;
+
+	}
+	.highlight li{
+		border-top: .5px solid #A71930;
+	}
+	.highlight li span{
+		margin-right: 0px;
 	}
 }
