@@ -5,23 +5,25 @@
 	}
 	nav {
 		position: initial;
-		display: block;
+		display: flex;
+		/* max-width: 400px; */
 	}
 	nav ul{
 		display: flex;
 		flex: 1 1 auto;
 		justify-content: flex-end;
+		/* max-width: 300px; */
+		width: 60px
 	}
 	nav li {
 		/* display: flex; change state in small view */
-		/* flex: 1 1 auto; */
 		border: none;
 		justify-content: flex-end;
 	}
 	nav a {
 		text-align: center;
-		color: black;
 		width: auto;
+		padding: .5rem .75rem;
 	}
 	button {
 		display: none;
@@ -35,6 +37,10 @@
 		width: 80px;
 		font-size: smaller;
 		box-shadow: 0 0 30px #333
+	}
+
+	nav ul li:nth-child(1){
+		border: none;
 	}
 
 	/* MAIN */

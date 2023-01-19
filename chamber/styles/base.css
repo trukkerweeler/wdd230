@@ -42,7 +42,7 @@ ul li a:visited {
 .logo-header {
 	max-height: 100px;
 	display: grid;
-	grid-template-columns: 60px 1fr;
+	grid-template-columns: 15% 50% 25%;
 	margin: 0;
 }
 
@@ -70,7 +70,13 @@ p.logo-title {
 	border: none;
 	
 }
+/* i[class=['fa fa-linkedin-square']{
+	color: blue;
+} */
+i{
+	color: blue;
 
+}
 nav {
 	display: none;
 	position: absolute;
