@@ -25,7 +25,6 @@ header button::before {
 	/* border: black 1px solid; */
 	padding: 0px;
 	margin: 0px;
-
 }
 
 header button.open::before {
@@ -40,10 +39,10 @@ ul li a:visited {
 	color: silver;
 }
 
-h1 {
+.logo-header {
 	max-height: 100px;
 	display: grid;
-	grid-template-columns: 60px 1.25fr 1fr;
+	grid-template-columns: 60px 1fr;
 	margin: 0;
 }
 
@@ -63,12 +62,13 @@ h1 {
 
 .logo-title {
 	font-size: large;
+	/* overflow:visible; */
 }
 
 p.logo-title {
-	background-color: #A71930;
 	margin: 0;
 	border: none;
+	
 }
 
 nav {
@@ -88,7 +88,7 @@ nav.open {
 nav ul {
 	margin: 0;
 	padding: 0;
-	/* color: silver; */
+	/* max-width: 40px; */
 }
 
 nav ul li:nth-child(1) {
@@ -211,7 +211,7 @@ main h3 {
 }
 
 /* Footer */
-footer section {
+footer div {
 	background-color: #151515;
 	display: grid;
 	/* grid-template-columns: .7fr 1.3fr; */
@@ -222,7 +222,7 @@ footer section {
 	padding-left: 0px;
 }
 
-footer section img {
+footer div img {
 	max-width: 120px;
 }
 
@@ -260,20 +260,20 @@ li.logo-normal {
 	text-align: left;
 }
 
-footer section ul {
+footer div ul {
 	display: grid;
 }
 
-footer section ul li {
+footer div ul li {
 	list-style: none;
 	text-align: center;
 }
 
-footer section ul li a {
+footer div ul li a {
 	text-decoration: none;
 }
 
-footer section.logo-text {
+footer div.logo-text {
 	grid-column-start: 2;
 }
 
