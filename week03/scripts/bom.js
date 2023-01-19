@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
         displayList(input.value);
         chapters.push(input.value);
         setChapterList();
-        input.value='';
+        input.value = '';
         input.focus();
     }
 });
@@ -25,7 +25,7 @@ function displayList(item) {
     deleteButton.textContent = "❌";
     deleteButton.classList.add('delete');
     li.append(deleteButton);
-    li.append(li);
+    list.append(li);
     deleteButton.addEventListener('click', function () {
         list.removeChild(li);
         deleteChapter(li.textContent);
