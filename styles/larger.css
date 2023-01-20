@@ -2,7 +2,6 @@
 @media only screen and (min-width: 500px) {
 
 nav ul{
-    margin: 0 auto;
     padding-right: 0;
     flex-direction: row;
     margin-right: 0;
@@ -12,11 +11,22 @@ nav ul{
     justify-content: right;
     min-height: auto;
 }
+.herolabel p::after {
+    content: ": Larger";
+}
+.herolabel {
+    top: 40px;
+}
 main{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 760px;
-    margin: auto;
+    max-width: 960px;
+    margin: 0 auto;
+}
+main div{
+    grid-column: 1 / span 2;
+    margin: 0 auto;
+
 }
 main h1{
     grid-column: 1 / span 2;
@@ -49,6 +59,7 @@ main h1{
     font-size: 2rem;
 }
 #bf{
+    z-index: 1;
     display: inline-flex;
     max-height: 110px;
     padding-left: 20px;
@@ -59,6 +70,9 @@ main h1{
 
 .highlight{
     color: yellow;
+}
+iframe{
+    max-width: 960px;
 }
 
 }

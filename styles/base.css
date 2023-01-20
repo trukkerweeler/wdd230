@@ -5,6 +5,7 @@ nav{
     overflow: hidden;
 }
 nav ul{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -79,9 +80,32 @@ nav.responsive li {
 main{
     max-width: 400px;
     margin: 0 auto;
-    display: grid;
-    /* grid-template-columns: 1fr; */
 }
+/* HERO STUFF */
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 100%;
+}
+.herolabel{
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    opacity: .75;
+    white-space: nowrap;
+}
+.herolabel p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.herolabel p::after {
+    content: ": Smaller";
+    color: white;
+}
+/* END HERO STUFF */
 main.godark{
     background-color: #333;
 }
@@ -158,7 +182,9 @@ header{
     align-items: center;
 }
 main h1{
-    align-content: center;
+    /* align-content: center; */
+    /* align-items: center; */
+    text-align: center;
     margin: 0 auto;
     font-size: medium;
 }
@@ -179,4 +205,10 @@ li{
 
 .highlight{
     color: yellow;
+}
+iframe{
+    margin: 10px;
+    margin-left: 5%;    
+    margin-right: 5%;
+    width: 90%;
 }

@@ -1,6 +1,7 @@
 // Store the selected elements that we are going to use. 
 const mainnav = document.querySelector('.topnav')
 const hambutton = document.querySelector('#menu');
+const imagetext = document.querySelector('.herolabel p')
 
 // Add a simple arrow function that listens for the <li> hamburger button click event.
 // When clicked, the <ul class="navigation">'s class list toggle'
