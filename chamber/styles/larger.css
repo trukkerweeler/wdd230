@@ -85,4 +85,20 @@
 	.highlight li span{
 		margin-right: 0px;
 	}
+	main.discovery{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.discovery aside{
+		grid-row: 1;
+		grid-column: 1/2;
+		background-color: silver;
+
+	}
+	.disc-img{
+		grid-column: 2/4;	
+	
+	}
+	.disc-img img:hover{
+		box-shadow: 0 0 30px #333;
+	}
 }

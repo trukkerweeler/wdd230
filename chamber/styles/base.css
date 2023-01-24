@@ -304,3 +304,45 @@ ul.highlight {
 #lastModified {
 	margin-top: 0px;
 }
+
+/* DISCOVERY */
+main.discovery{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+}
+.discovery h1{
+	text-align: center;
+}
+.discovery aside{	
+	background-color: silver;
+	display: inline;
+	grid-row-start: 2;
+	grid-column: span 3;
+	border: 1px solid black;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-style: italic;
+}
+
+.disc-img img{
+	max-width: 100%;
+
+}
+aside ul li{
+	list-style: none;
+}
+aside h2{
+	margin-left: 10px;
+}
+figure{
+	align-items: center;
+}
+figcaption{
+	color: silver;
+	font-weight: 700;
+	text-align: center;
+}
+.lastvisited{
+	text-align: center;
+}
