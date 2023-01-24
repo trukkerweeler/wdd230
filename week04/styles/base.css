@@ -1,0 +1,42 @@
+table{
+    width: 400px;
+    font-family: Abel;
+}
+thead tr:first-child{
+    font-size: x-large;
+}
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+caption{
+    caption-side: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+th, tr {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+tr th {
+    color: white;
+    background-color: black;
+    
+}
+tr {
+    font-weight: bold;
+}
+.comparison >th{ 
+    background-color: #333;
+}
+.comparison th:first-child{
+    background-color: black;
+}
