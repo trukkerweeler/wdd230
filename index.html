@@ -30,7 +30,8 @@
         <h1>Tim Kent</h1>
     </header>
     <img src="images/btface.webp" id="bf" alt="Tim's face." loading="lazy">
-
+    
+    <!-- ---------------MAIN----------------- -->
     <main>
         <div class="hero">
             <picture>
@@ -70,6 +71,64 @@
         </section>
     </main>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48898.137043060444!2d-111.71371008469511!3d40.005464026172284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874da55a9485bbb1%3A0x7229563bc3433b0!2sElk%20Ridge%2C%20UT!5e0!3m2!1sen!2sus!4v1674243694317!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <form method="get" id="contact">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label class="top">Full Name* <input type="text" id="iuser" name="fullname" required></label>
+            <label class="top">Email* <input type="email" name="email" id="iemail" placeholder="someone@gmail.com" required></label>            
+            <div class="rangecontainer">
+            <label for="r">Page Rating [ <span id="rating"></span> ]:</label>
+            <input type="range" min="1" max="5" id="r" name="r" list="five">
+                <div class="ratinglabels">
+                    <span class="ratevalue">1</span>
+                    <span class="ratevalue">2</span>
+                    <span class="ratevalue">3</span>
+                    <span class="ratevalue">4</span>
+                    <span class="ratevalue">5</span>
+                </div>
+            </div>
+            <label class="top">Username <input type="password" id="keyphrase" name="password" required></label>
+            <label class="top">Username <input type="password" id="keyphrase2" name="password" required></label>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        
+        </fieldset>
+
+    </form>
+
+    <div id="formmessage"></div>
+    <div class="outputtable">
+    <table class="contact">
+        <caption>Form Input</caption>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th >Value</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td class="field">Name:</td>
+                <td id="ouser"></td>
+
+            </tr>
+            <tr>
+                <td class="field">Email:</td>
+                <td id="oemail"></td>
+            </tr>
+            <tr>
+                <td class="field">Rating:</td>
+                <td id="orating"></td>
+            </tr>
+            <tr>
+                <td class="field">Username:</td>
+                <td id="ousername"></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
     <footer>
         <p>
             <span>©<span id="©"></span></span>
@@ -84,6 +143,8 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/dark.js"></script>
     <script src="scripts/visits.js"></script>
+    <script src="scripts/rating.js"></script>
+    <script src="scripts/validation.js"></script>
     
 </body>
 </html>
