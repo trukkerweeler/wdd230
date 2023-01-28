@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce page.">
+    <meta name="description" content="Chamber of Commerce Join page.">
     <meta name="author" content="This page authored by timokent">
     <meta property="og:title" content="WDD230 Chamber Website">
     <meta property="og:type" content="website">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel&family=Tapestry&display=swap">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mona Area Chamber</title>
 </head>
@@ -30,7 +29,7 @@
             </div>
             <div>
                 <i class="fa fa-linkedin-square" style="font-size:24px"></i>
-            </br>
+            <br>
                 <i class='fa fa-facebook'></i>
             </div>
         </div>
@@ -40,17 +39,54 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="hero">
         <img src="images/hero.jpg" alt="Image of small lake with mountain background.">
-        <button class="join" id="join">Join Now!</button>
     </div>
     <main>
-        
+        <form id="join" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Job Title <input type="text" name="job" id="job"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Mobile <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Company* <input type="text" name="busname" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Level</legend>
+                <div class="membership">              
+                    <label class="sbs"><input type="radio" class="radio" name="audience" value="Non-Profit"> Non-Profit (0$)</label>
+                    <p class="membdesc">Includes free parking at the annual monster truck rally.</p>
+                    <label class="sbs"><input type="radio" class="radio" name="audience" value="Bronze"> Bronze (100$)</label>
+                    <p class="membdesc">Includes free parking and front row seats to monster truck rally.</p>
+                    <label class="sbs"><input type="radio" class="radio" name="audience" value="Silver"> Silver (200$)</label>
+                    <p class="membdesc">Free parking, seats, fried chicken and watermelon at monster truck rally.</p>
+                    <label class="sbs"><input type="radio" class="radio" name="audience" value="Gold"> Gold (500$)</label>                
+                    <p class="membdesc">You get to drive a monster truck through the mud pit at the monster truck rally.</p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label id="textarea"><textarea name="description" id="business" cols="40" rows="3"></textarea></label>
+
+            </fieldset>
+            
+            <fieldset id="buttonfieldset">
+                <legend>One last click</legend>
+                <div>
+                <input type="hidden" name="datetime" id="datetime" value="">
+                <input type="submit" value="Join Now" class="submitBtn">
+                </div>
+            </fieldset>
+            
+        </form>
         
     </main>
     <footer>

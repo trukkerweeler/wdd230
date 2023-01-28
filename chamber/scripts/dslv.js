@@ -1,14 +1,3 @@
-//get the copyright year
-document.querySelector('#©').textContent = new Date(Date.now()).getFullYear() + " Mona Area Chamber";
-
-//get the last modified date
-let lastModified = document.lastModified;
-document.querySelector('#lastModified').innerHTML = `Last modified: ${lastModified}`;
-
-
-//Assign date to document input field
-document.getElementById('datetime').value = Date().toLocaleString();
-
 //Get todays date
 let rightnow = Date.now();
 

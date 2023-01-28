@@ -101,4 +101,20 @@
 	.disc-img img:hover{
 		box-shadow: 0 0 30px #333;
 	}
+	
+	/* -----------JOIN----------- */
+	legend{
+		font-size: x-large;
+	}
+	fieldset{
+		max-width: 425px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	.membership .sbs{
+		grid-column: auto;
+	}
+	.membdesc {
+		display: block;
+	}
 }
