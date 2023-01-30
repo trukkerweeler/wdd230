@@ -1,0 +1,24 @@
+{
+    "familyName" : "Wiley",
+    "moveinDate" : "2022-12-25",
+    "familyCount" : 3,
+    "bishopVisited" : "2023-01-01",
+    "members" : [
+      {
+        "name" : "Brother Wiley",
+        "gender" : "M",
+        "birthDate" : "2023-02-14"
+      },
+      {
+        "name" : "Sister Wiley",
+        "gender" : "F",
+        "birthDate" : "2023-03-17"
+      },
+      {
+        "name" : "Baby Wiley",
+        "gender" : "F",
+        "birthDate" : "2023-07-04"
+      }
+    ]
+  }
+  
