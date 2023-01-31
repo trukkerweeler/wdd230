@@ -1,0 +1,36 @@
+:root{
+    font-family: Abel;
+}
+h1, h2, p {
+    text-align: center;
+    color: navy;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    box-shadow: 0 0 15px #19a71a;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+section{
+    margin-bottom: 8px;
+    border: solid 1px black;
+}
+section p:first-of-type{
+    margin-bottom: 0;
+}
+#cards {
+    background-color: aliceblue;
+}
+p {
+    margin-top: 0;
+}
