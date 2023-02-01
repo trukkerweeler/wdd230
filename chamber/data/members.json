@@ -57,7 +57,7 @@
         "memberstartdate" : "2023-01-01",
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "G",
-        "website" : "https://www.alexbridge.com",
+        "website" : "https://www.alexbridges.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/bridge.webp",
         "address" : [
             {
@@ -95,7 +95,7 @@
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spout.jpg",
         "address" : [
             {
-            "street" : "890 Napkin dream",
+            "street" : "890 Naught Plans",
             "city" : "Mona",
             "code" : "99960"
             }]  
@@ -108,7 +108,7 @@
         "memberstartdate" : "1995-01-01",
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "P",
-        "website" : "https://www.h2o-yeahweb.com",
+        "website" : "https://www.h2o-yeah.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/water.webp",
         "address" : [
             {

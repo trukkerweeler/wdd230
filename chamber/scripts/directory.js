@@ -24,7 +24,7 @@ const displayProfiles = (profiles) =>{
         website.textContent = profile["website"];
         website.href = profile["website"];
         mobile.textContent = profile.mobile;
-        fulladdress.textContent = profile.address[0]["street"];
+        fulladdress.textContent = `${profile.address[0]["street"]}, ${profile.address[0]["city"]} ${profile.address[0]["code"]} `;
         image.src = profile["imagefile"];
         
 
