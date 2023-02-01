@@ -288,4 +288,6 @@ thead{
     margin-left: 50%;
     width: auto;
 }
-
+img #weather-icon {
+    size: .5em;
+}

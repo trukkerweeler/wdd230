@@ -1,0 +1,7 @@
+{
+	"week01": ["week01/holygrail.html", "week01/media-query.html"],
+	"week02": ["week02/bom.html", "https://trukkerweeler.github.io/wdd230/week02/design.html"],
+	"week03": ["week03/images/landscape.webp", "https://trukkerweeler.github.io/wdd230/week03/lazyload.html", "https://codepen.io/trukkerweeler/pen/mdjqwaj"],
+	"week04": ["https://codepen.io/trukkerweeler/pen/poZLrWM", "week04/images/Screenshot w04 combinators.webp", "week04/tablebuild.html", "week04/form-start/index.html"],
+	"week05": ["https://codepen.io/trukkerweeler/pen/wvxEgzb", "week05/new-ward-members.json", "week05/prophets.html", "week05/weather.html"]
+}
