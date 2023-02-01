@@ -1,0 +1,120 @@
+[
+    {
+        "companyname" : "Wiley",
+        "contactfullname" : "Kenny Candy",
+        "mobile" : "801-555-1234",
+        "memberstartdate" : "2023-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "P",
+        "website" : "https://www.wileyweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+                "street" : "2023 Pinkyswear",
+                "city" : "Perham",
+                "code" : "56673"
+            }]
+    },
+
+    {
+        "companyname" : "GBU",
+        "contactfullname" : "Tuco Benedicto Pacifico Juan Maria Ramirez",
+        "mobile" : "801-555-1966",
+        "memberstartdate" : "1966-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "B",
+        "website" : "https://www.gbuweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "200 Arch Stanton",
+            "city" : "Sandhill",
+            "code" : "17760"
+            }]  
+    },
+
+    {
+        "companyname" : "Murdercycles",
+        "contactfullname" : "Lawrence",
+        "mobile" : "801-555-1962",
+        "memberstartdate" : "2023-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "S",
+        "website" : "https://www.lawrenceweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "1962 Suez Canal",
+            "city" : "Cairo",
+            "code" : "22760"
+            }]  
+    },
+
+    {
+        "companyname" : "Alec's Bridges",
+        "contactfullname" : "David Lean",
+        "mobile" : "801-555-1957",
+        "memberstartdate" : "2023-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "G",
+        "website" : "https://www.alexbridge.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "1942 Burma Rails",
+            "city" : "Solitary",
+            "code" : "16160"
+            }]  
+    },
+
+    {
+        "companyname" : "The Aranea Pantry",
+        "contactfullname" : "Frank Marshall",
+        "mobile" : "801-555-1234",
+        "memberstartdate" : "1990-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "G",
+        "website" : "https://www.araneaweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "8 Fragile Legs",
+            "city" : "Mona",
+            "code" : "88860"
+            }]  
+    },
+
+    {
+        "companyname" : "Flexpo",
+        "contactfullname" : "Herbert Dos-Tons",
+        "mobile" : "801-555-1234",
+        "memberstartdate" : "2023-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "P",
+        "website" : "https://www.flexpoweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "890 Napkin dream",
+            "city" : "Mona",
+            "code" : "99960"
+            }]  
+    },
+
+    {
+        "companyname" : "h2O-yeah",
+        "contactfullname" : "The Mariner",
+        "mobile" : "801-555-1995",
+        "memberstartdate" : "1995-01-01",
+        "nextrenewal" : "2024-01-01",
+        "membershiplevel" : "P",
+        "website" : "https://www.h2o-yeahweb.com",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "address" : [
+            {
+            "street" : "7600m Apocalypse",
+            "city" : "Island City",
+            "code" : "13560"
+            }]  
+    }
+]

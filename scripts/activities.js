@@ -40,7 +40,6 @@ const createHTML = (data) => {
             activities.appendChild(myList)
         });
         
-        // activities.appendChild(myList)
     });
 
 
