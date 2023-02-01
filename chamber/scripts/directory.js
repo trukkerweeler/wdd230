@@ -25,8 +25,10 @@ const displayProfiles = (profiles) =>{
         website.href = profile["website"];
         mobile.textContent = profile.mobile;
         fulladdress.textContent = profile.address[0]["street"];
+        image.src = profile["imagefile"];
         
 
+        card.appendChild(image);
         card.appendChild(fulladdress);
         card.appendChild(mobile);
         card.appendChild(website);

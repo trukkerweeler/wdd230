@@ -7,7 +7,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "P",
         "website" : "https://www.wileyweb.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/wiley.webp",
         "address" : [
             {
                 "street" : "2023 Pinkyswear",
@@ -41,7 +41,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "S",
         "website" : "https://www.lawrenceweb.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/lawrence.jpg",
         "address" : [
             {
             "street" : "1962 Suez Canal",
@@ -58,7 +58,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "G",
         "website" : "https://www.alexbridge.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/bridge.webp",
         "address" : [
             {
             "street" : "1942 Burma Rails",
@@ -75,7 +75,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "G",
         "website" : "https://www.araneaweb.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spider.jpg",
         "address" : [
             {
             "street" : "8 Fragile Legs",
@@ -92,7 +92,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "P",
         "website" : "https://www.flexpoweb.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spout.jpg",
         "address" : [
             {
             "street" : "890 Napkin dream",
@@ -109,7 +109,7 @@
         "nextrenewal" : "2024-01-01",
         "membershiplevel" : "P",
         "website" : "https://www.h2o-yeahweb.com",
-        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/water.webp",
         "address" : [
             {
             "street" : "7600m Apocalypse",
