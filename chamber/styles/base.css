@@ -305,7 +305,7 @@ ul.highlight {
 	margin-top: 0px;
 }
 
-/* DISCOVERY */
+/* -----------DISCOVERY ---------------*/
 main.discovery{
 	display: grid;
 	grid-template-columns: 1fr;
@@ -425,4 +425,24 @@ textarea {
 .membdesc {
 	display: none;
 	margin-top: 0;
+}
+
+/* ----------DIRECTORY----------- */
+#directory section {
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+
+}
+#directory section img{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	margin-top: 1rem;
+	max-width: 120px;
+}
+
+#directory section p{
+	margin-top: 0;
+	margin-bottom: 4px;
 }

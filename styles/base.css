@@ -108,7 +108,7 @@ main{
     content: ": Smaller";
     color: white;
 }
-/* END HERO STUFF */
+/* ------------END HERO STUFF ---------------*/
 main.godark{
     background-color: #333;
 }
@@ -288,6 +288,19 @@ thead{
     margin-left: 50%;
     width: auto;
 }
-img #weather-icon {
+/* ------------Weather Card------------- */
+
+#weather-icon {
     size: .5em;
+    padding-left: 1rem;
+}
+#current-temp {
+    margin-bottom: 15px;
+    margin-top: auto;
+}
+#info div{
+    display: flex;
+}
+.label {
+    margin-left: 1rem;
 }
