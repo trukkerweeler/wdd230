@@ -297,10 +297,21 @@ thead{
 #current-temp {
     margin-bottom: 15px;
     margin-top: auto;
+    padding-left: 0;
 }
-#info div{
-    display: flex;
+#weather-visits{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#weather-visits img{
+    padding-left: 0;
 }
 .label {
-    margin-left: 1rem;
+    margin-left: 0;
+}
+.label::after{
+    content: "\00a0";
+}
+#weather-inner{
+    display: inline-flex
 }

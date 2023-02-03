@@ -10,20 +10,3 @@ mybtn.addEventListener('click', () => {
     mybtn.classList.toggle('open');
     mynav.classList.toggle('open');
 });
-
-myjob.addEventListener("focusout",validateJob);
-
-function validateJob(){
-    if (pattern.test(myjob.value) && (myjob.value.length > 6)) {
-        myjob.style.backgroundColor = "gray";
-    } else {
-        myjob.style.borderLeftColor = "#ffff00";
-        myjob.style.borderLeftWidth = "10px";
-    }
-}
-
-
-
-
-
-

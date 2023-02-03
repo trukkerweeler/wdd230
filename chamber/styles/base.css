@@ -8,12 +8,14 @@ header {
 	grid-template-columns: auto 48px;
 	background-color: #A71930;
 }
-
-header button {
+button {
 	height: 48px;
 	width: 48px;
 	font-size: 2rem;
 	background-color: #A71930;
+}
+
+header button {
 	position: absolute;
 	top: 14px;
 	right: 14px;
@@ -22,7 +24,6 @@ header button {
 header button::before {
 	content: "\2630";
 	background-color: #A71930;
-	/* border: black 1px solid; */
 	padding: 0px;
 	margin: 0px;
 }
@@ -52,7 +53,6 @@ ul li a:visited {
 }
 
 .logo-header div div{
-	/* background-color: #A71930; */
 	margin: 0;
 	padding: 0;
 	padding-top: 7px;
@@ -62,7 +62,6 @@ ul li a:visited {
 
 .logo-title {
 	font-size: large;
-	/* overflow:visible; */
 }
 
 p.logo-title {
@@ -70,9 +69,6 @@ p.logo-title {
 	border: none;
 	
 }
-/* i[class=['fa fa-linkedin-square']{
-	color: blue;
-} */
 i{
 	color: blue;
 }
@@ -93,7 +89,6 @@ nav.open {
 nav ul {
 	margin: 0;
 	padding: 0;
-	/* max-width: 40px; */
 }
 
 nav ul li:nth-child(1) {
@@ -193,7 +188,7 @@ main h3 {
 
 .spotlight {
 	text-align: center;
-	box-shadow: 0 0 15px #333 inset
+	box-shadow: 0 0 15px #333 inset;
 }
 
 .spotlight h5 {
@@ -400,7 +395,7 @@ textarea {
 .top {
 	text-align: left;
 }
-.sbs .radio{
+.radio{
 	margin-top: 0;
 	vertical-align: middle;
 }
@@ -428,21 +423,58 @@ textarea {
 }
 
 /* ----------DIRECTORY----------- */
-#directory section {
+.grid {
 	display: grid;
-	grid-template-columns: 1fr;
-	text-align: center;
-
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-#directory section img{
+
+.dirmenu button {	
+	margin-left: 25%;
+	margin-right: auto;
+	font-size: medium;
+	background-color: silver;
+	border-radius: 8px;
+}
+
+main article section {
+	text-align: center;
+	border-bottom: 1px black solid;
+	box-shadow: 0 8px 8px -8px #333;
+	padding-left: 0;
+}
+
+main article section img{
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 8px;
 	margin-top: 1rem;
 	max-width: 120px;
 }
-
-#directory section p{
-	margin-top: 0;
+main article section a{
+	margin-top: 4px;
+}
+main article section p{
+	margin-top: 4px;
 	margin-bottom: 4px;
+}
+.grid section h3{
+	display: none;
+}
+.list section {
+	text-align: left;
+}
+.list section img {
+	display: none;
+}
+.list section h3{
+	text-shadow: none;
+	color: black;
+	text-align: left;
+	margin-bottom: 2px;
+	margin-top: 4px;
+	font-size: large;
+	font-weight: normal;
+}
+.list section:nth-child(even) {
+	background-color: whitesmoke;
 }
