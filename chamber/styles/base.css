@@ -161,6 +161,10 @@ main {
 }
 
 /* Section */
+
+#companies {
+	grid-column: span 3;
+}
 section {
 	margin: 5px;
 	padding-left: 10px;
@@ -184,6 +188,7 @@ main h3 {
 	font-size: xx-large;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	grid-column: span 3;
 }
 
 .spotlight {
@@ -369,6 +374,7 @@ legend {
 	border-radius: 9px;
 	width: 100%;
 	max-width: 300px;
+	font-style: italic;
 }
 input {
 	height: 25px;
@@ -477,4 +483,55 @@ main article section p{
 }
 .list section:nth-child(even) {
 	background-color: whitesmoke;
+}
+/* -------------Weather------------- */
+#weather-inner {
+	display: flex;
+	flex-direction: row;
+}
+#weather-inner img{
+	max-width: 60px;
+	margin: auto;
+}
+
+#companies h4{
+	text-align: center;
+}
+/* ------------banner------------- */
+#banner{
+	height: 48px;
+	/* background-color: white; */
+	background-color: gold;
+	border: #A71930 5px solid;
+	text-align: center;
+	overflow: hidden;
+}
+
+.showbanner{
+	display: block;
+}
+.hidebanner {
+	display: none;
+}
+/* .marquee {
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.marquee span{
+	display: inline-block;
+	padding-left: 100%;
+	animation: marquee 5s linear infinite;
+} */
+.marquee {
+	margin: 8px auto;
+	
+}
+.marquee span{
+	/* color: #A71930; */
+	color: blueviolet;
+	font-size: 1rem;
+	overflow: hidden;
+	font-weight: 900;
+	
 }

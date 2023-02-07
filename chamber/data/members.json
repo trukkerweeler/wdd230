@@ -34,7 +34,7 @@
     },
 
     {
-        "companyname" : "Murdercycles",
+        "companyname" : "Larry's Murdercycles",
         "contactfullname" : "Lawrence",
         "mobile" : "801-555-1962",
         "memberstartdate" : "2023-01-01",
@@ -90,7 +90,7 @@
         "mobile" : "801-555-1234",
         "memberstartdate" : "2023-01-01",
         "nextrenewal" : "2024-01-01",
-        "membershiplevel" : "P",
+        "membershiplevel" : "S",
         "website" : "https://www.flexpo.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spout.jpg",
         "address" : [
@@ -107,7 +107,7 @@
         "mobile" : "801-555-1995",
         "memberstartdate" : "1995-01-01",
         "nextrenewal" : "2024-01-01",
-        "membershiplevel" : "P",
+        "membershiplevel" : "S",
         "website" : "https://www.h2o-yeah.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/water.webp",
         "address" : [
