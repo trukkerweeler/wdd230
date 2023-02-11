@@ -490,13 +490,20 @@ main article section p{
 	flex-direction: row;
 }
 #weather-inner img{
-	max-width: 60px;
-	margin: auto;
+	max-width: 50px;
+	max-height: 50px;
+}
+#weather-visits {
+	margin-right: 10%;
+}
+#weather-icon {
+	margin-left: 10%;
 }
 
 #companies h4{
 	text-align: center;
 }
+
 /* ------------banner------------- */
 #banner{
 	height: 48px;

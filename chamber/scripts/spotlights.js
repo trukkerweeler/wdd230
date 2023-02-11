@@ -1,5 +1,9 @@
 const profile = document.getElementById('companies');
 
+// should have done it this way
+// while (spotlights.length > 3) {
+//     spotlights.splice(Math.round(Math.random()*spotlights.length), 1)
+//   };
 
 async function getCompanyData() {
     const response = await fetch("data/members.json");
