@@ -321,6 +321,7 @@ main.discovery{
 	grid-column: span 3;
 	border: 1px solid black;
 	margin-left: 5px;
+	margin-right: 5px;
 	margin-bottom: 5px;
 	font-style: italic;
 }
@@ -498,6 +499,9 @@ main article section p{
 }
 #weather-icon {
 	margin-left: 10%;
+}
+#weatherc{
+	grid-column: span 2;
 }
 
 #companies h4{

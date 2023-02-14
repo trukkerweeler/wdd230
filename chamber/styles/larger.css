@@ -47,11 +47,14 @@
 	#weather{
 		grid-column: span 2;
 	}
-	h3{
-		/* display: none; */
+	#weatherc{
+		grid-column: span 1;
 	}
 	#companies {
 		grid-column: span 3;
+	}
+	.spotlight h4{
+		font-size: 2rem;
 	}
 
 	/* FOOTER */
@@ -87,11 +90,15 @@
 	}
 	main.discovery{
 		grid-template-columns: 1fr 1fr 1fr;
+		/* position: relative; */
+
 	}
 	.discovery aside{
 		grid-row: 1;
 		grid-column: 1/2;
 		background-color: silver;
+		/* position: absolute; */
+		/* top: 100px; */
 
 	}
 	.disc-img{
@@ -157,5 +164,9 @@
 	}
 	.marquee span{
 		font-size: 24px;
+	}
+	.information{
+		position: sticky;
+		top: 20%;
 	}
 }

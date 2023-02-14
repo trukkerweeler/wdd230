@@ -75,4 +75,8 @@ iframe{
     max-width: 960px;
 }
 
+#weatherc {
+    grid-column: span 1;
+}
+
 }
