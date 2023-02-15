@@ -495,9 +495,16 @@ main article section p{
 #weather-inner li{
 	min-height: 120px;
 	max-width: 75px;
+	margin: 0 auto;
+}
+#weather-inner li img{
+	height: 50px;
+	width: 50px;
 }
 #weather-visits {
-	margin-right: 10%;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 #weather-icon {
 	margin-left: 10%;
