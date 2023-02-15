@@ -12,7 +12,7 @@ async function apiFetch() {
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // testing only
+        // console.log(data); // testing only
         displayResults(data); // uncomment when ready
       } else {
           throw Error(await response.text());
@@ -47,7 +47,7 @@ async function apiFetch() {
         
         let desc = `${myDay}: ${forecast.weather[0].description}`;
         description.textContent = desc;
-        console.log(desc);
+        // console.log(desc);
 
         let wIcon = document.createElement('img');
         const iconsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
