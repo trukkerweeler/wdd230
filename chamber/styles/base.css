@@ -219,7 +219,6 @@ main h3 {
 footer div {
 	background-color: #151515;
 	display: grid;
-	/* grid-template-columns: .7fr 1.3fr; */
 	text-align: center;
 	font-weight: 700;
 	border: none;
@@ -293,7 +292,6 @@ ul.footer-info {
 
 ul.highlight {
 	margin-top: 0;
-	/* margin-bottom: 0; */
 	background-color: #322F2B;
 	padding-left: 0;
 	text-align: center;
@@ -491,8 +489,12 @@ main article section p{
 	flex-direction: row;
 }
 #weather-inner img{
-	max-width: 50px;
+	width: 75px;
 	max-height: 50px;
+}
+#weather-inner li{
+	min-height: 120px;
+	max-width: 75px;
 }
 #weather-visits {
 	margin-right: 10%;
@@ -511,7 +513,6 @@ main article section p{
 /* ------------banner------------- */
 #banner{
 	height: 48px;
-	/* background-color: white; */
 	background-color: gold;
 	border: #A71930 5px solid;
 	text-align: center;
@@ -524,25 +525,13 @@ main article section p{
 .hidebanner {
 	display: none;
 }
-/* .marquee {
-	margin: 0 auto;
-	white-space: nowrap;
-	overflow: hidden;
-}
-.marquee span{
-	display: inline-block;
-	padding-left: 100%;
-	animation: marquee 5s linear infinite;
-} */
 .marquee {
 	margin: 8px auto;
 	
 }
 .marquee span{
-	/* color: #A71930; */
 	color: blueviolet;
 	font-size: 1rem;
 	overflow: hidden;
-	font-weight: 900;
-	
+	font-weight: 900;	
 }

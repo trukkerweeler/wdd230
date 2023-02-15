@@ -90,15 +90,12 @@
 	}
 	main.discovery{
 		grid-template-columns: 1fr 1fr 1fr;
-		/* position: relative; */
 
 	}
 	.discovery aside{
 		grid-row: 1;
 		grid-column: 1/2;
 		background-color: silver;
-		/* position: absolute; */
-		/* top: 100px; */
 
 	}
 	.disc-img{
