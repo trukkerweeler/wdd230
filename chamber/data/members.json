@@ -8,6 +8,7 @@
         "membershiplevel" : "P",
         "website" : "https://www.wileyweb.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/wiley.webp",
+        "imagealt" : "Wallaby",
         "address" : [
             {
                 "street" : "2023 Pinkyswear",
@@ -25,6 +26,7 @@
         "membershiplevel" : "B",
         "website" : "https://www.gbuweb.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/tuco.jpg",
+        "imagealt" : "Tuco Benedicto Pacifico Juan Maria Ramirez",
         "address" : [
             {
             "street" : "200 Arch Stanton",
@@ -42,6 +44,7 @@
         "membershiplevel" : "S",
         "website" : "https://www.lawrence.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/lawrence.webp",
+        "imagealt" : "Triumph Motorcycle",
         "address" : [
             {
             "street" : "1962 Suez Canal",
@@ -59,6 +62,7 @@
         "membershiplevel" : "G",
         "website" : "https://www.alexbridges.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/bridge.webp",
+        "imagealt" : "Bridge",
         "address" : [
             {
             "street" : "1942 Burma Rails",
@@ -76,6 +80,7 @@
         "membershiplevel" : "G",
         "website" : "https://www.araneaweb.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spider.jpg",
+        "imagealt" : "Spider",
         "address" : [
             {
             "street" : "8 Fragile Legs",
@@ -93,6 +98,7 @@
         "membershiplevel" : "S",
         "website" : "https://www.flexpo.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/spout.jpg",
+        "imagealt" : "Spout",
         "address" : [
             {
             "street" : "890 Naught Plans",
@@ -110,6 +116,7 @@
         "membershiplevel" : "S",
         "website" : "https://www.h2o-yeah.com",
         "imagefile" : "https://trukkerweeler.github.io/wdd230/chamber/images/water.webp",
+        "imagealt" : "Waterscape",
         "address" : [
             {
             "street" : "7600m Apocalypse",

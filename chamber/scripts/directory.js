@@ -24,6 +24,7 @@ const displayProfiles = (profiles) =>{
         mobile.textContent = profile.mobile;
         fulladdress.textContent = `${profile.address[0]["street"]}, ${profile.address[0]["city"]} ${profile.address[0]["code"]} `;
         image.src = profile["imagefile"];
+        image.alt = profile["imagealt"];
         
 
         card.appendChild(name)
